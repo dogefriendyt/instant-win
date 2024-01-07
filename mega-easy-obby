@@ -1,0 +1,3 @@
+--Beat the game mega easy obby.
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(97.45867156982422, 3155.526611328125, 232.7589569091797)
