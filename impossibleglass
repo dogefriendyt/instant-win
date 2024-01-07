@@ -1,3 +1,5 @@
+--Get infinite money
+
 while true do
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1104.3951416015625, 80.51832580566406, 115.38287353515625)
 wait (1.5)
