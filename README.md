@@ -1,3 +1,3 @@
-# impossibleglass
+# Instant Win!
 
-```loadstring(game:HttpGet("https://raw.githubusercontent.com/dogefriendyt/impossibleglass/main/infmoney", true))()```
+Win all these supported games with the simple click of a button@
