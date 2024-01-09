@@ -1,6 +1,2 @@
---Get infinite wins
 
-while true do
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2559.145263671875, 131.08444213867188, -105.13102722167969)
-wait (1.5)
-end
