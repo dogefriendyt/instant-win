@@ -28,6 +28,6 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
                 Text = "Success.";
                 Duration = 0.1;})
 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(48.22639846801758, 286.4626159667969, -13655.0751953125)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0.6135109663009644, 318.28826904296875, -13737.5)
 
 end)
