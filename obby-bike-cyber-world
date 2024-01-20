@@ -1,1 +1,33 @@
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(49.10915756225586, 286.4580993652344, -13635.2001953125)
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Welcome!";
+                Text = "Enjoy using Doge Hub";
+                Duration = 1.5;})
+
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/GdN5iRbt"))() 
+local Window = Library.CreateLib("Doge Hub", "DarkTheme") 
+
+
+local Tab1 = Window:NewTab("Da stuff")
+local Tab1Section = Tab1:NewSection("Scripts")
+
+
+Tab1Section:NewButton("Tp to the end", "Load.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Success.";
+                Duration = 0.1;})
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(48.22639846801758, 286.4626159667969, -13655.0751953125)
+
+end)
+
+Tab1Section:NewButton("Restart", "Load.", function()
+game:GetService("StarterGui"):SetCore("SendNotification",{
+                Title = "Notification";
+                Text = "Success.";
+                Duration = 0.1;})
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(48.22639846801758, 286.4626159667969, -13655.0751953125)
+
+end)
